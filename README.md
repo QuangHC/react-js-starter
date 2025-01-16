@@ -1,67 +1,45 @@
-React + Vite Starter Template
+# React + Vite Starter Template
 
-Getting Started
+This repository provides a minimal setup to quickly start a React project using Vite. It includes hot module replacement (HMR) and some pre-configured ESLint rules for better code quality.
+
+## Features
+
+- **React**: A library for building user interfaces.
+- **Vite**: A fast build tool with a development server.
+- **Bun**: A modern JavaScript runtime that speeds up installation and development.
+- **ESLint**: Pre-configured linting rules to maintain clean and consistent code.
+
+## Prerequisites
+
+Before using this project, ensure you have the following installed on your system:
+
+- [Bun](https://bun.sh/): Installation instructions are available on their official website.
+
+## Getting Started
 
 Follow these steps to set up and run the project:
 
-1. Clone the Repository
+### 1. Clone the Repository
 
+```bash
 git clone https://github.com/QuangHC/react-js-starter.git
 cd react-js-starter
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
 
-Using bun for package management ensures faster installation:
-
+```bash
 bun install
+```
 
-3. Run the Development Server
+### 3. Run the Development Server
 
-Start the development server with:
-
+```bash
 bun dev
+```
 
-This will launch the application locally, typically accessible at http://localhost:3000.
+### 4. Build for Production
 
-4. Build for Production
-
-To create an optimized build for production:
-
+```bash
 bun build
-
-The build files will be available in the dist folder.
-
-Project Structure
-
-react-js-starter/
-├── src/                 # Application source code
-│   ├── components/      # Reusable React components
-│   ├── assets/          # Static assets
-│   └── App.jsx          # Main application component
-├── public/              # Static files served directly
-├── .eslintrc            # ESLint configuration
-├── vite.config.js       # Vite configuration
-├── package.json         # Project metadata
-└── bun.lockb            # Bun lock file for dependencies
-
-Scripts
-
-bun dev: Starts the development server with HMR.
-
-bun build: Builds the application for production.
-
-bun lint: Runs ESLint to check code quality.
-
-Contributing
-
-Feel free to fork this repository, create a new branch, and submit pull requests. Contributions are welcome!
-
-License
-
-This project is licensed under the MIT License.
-
-Feedback
-
-If you have any issues or suggestions, please open an issue on GitHub.
-
-Enjoy coding! 🚀
+```
