@@ -8,6 +8,7 @@ This repository provides a minimal setup to quickly start a React project using 
 - **Vite**: A fast build tool with a development server.
 - **Bun**: A modern JavaScript runtime that speeds up installation and development.
 - **ESLint**: Pre-configured linting rules to maintain clean and consistent code.
+- **CharkaUI & Tailwind**
 
 ## Prerequisites
 
